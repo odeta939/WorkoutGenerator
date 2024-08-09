@@ -1,0 +1,12 @@
+﻿{
+  "exercises": [
+    {
+      "name": "name of the exercise",
+      "howToPerform": "instructions on how to perform the exercise",
+      "muscleGroup": "muscle group targeted by the exercise",
+      "repetitions": "number of repetitions",
+      "weightType": "type of weight used",
+      "kilograms": "weight in kilograms"
+    }
+  ]
+}

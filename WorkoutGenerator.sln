@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutGenerator", "WorkoutGenerator\WorkoutGenerator.csproj", "{54A6FD31-A22D-45FB-95D8-1065E24F54EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkGeneratorTests", "WorkGeneratorTests\WorkGeneratorTests.csproj", "{DC695CF1-0570-4FC0-BE4B-247346EE1E95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54A6FD31-A22D-45FB-95D8-1065E24F54EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A6FD31-A22D-45FB-95D8-1065E24F54EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A6FD31-A22D-45FB-95D8-1065E24F54EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A6FD31-A22D-45FB-95D8-1065E24F54EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC695CF1-0570-4FC0-BE4B-247346EE1E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC695CF1-0570-4FC0-BE4B-247346EE1E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC695CF1-0570-4FC0-BE4B-247346EE1E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC695CF1-0570-4FC0-BE4B-247346EE1E95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

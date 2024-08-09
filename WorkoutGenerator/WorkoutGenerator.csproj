@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UserSecretsId>7ea09b0f-7e6f-4234-8c4e-974fb729c075</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentAssertions" Version="7.0.0-alpha.4" />
+        <PackageReference Include="HttpClientWrapper" Version="1.0.0.2" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.0-preview.6.24327.7" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="9.0.0-preview.6.24327.7" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0-preview.6.24327.7" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.0-preview.6.24327.7" />
+        <PackageReference Include="Newtonsoft.Json.Schema" Version="4.0.1" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <None Update="appsettings.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="exerciseSchema.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="jsonExerciseExample.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+</Project>
