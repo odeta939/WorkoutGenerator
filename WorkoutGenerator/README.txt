@@ -1,6 +1,10 @@
 ﻿# Project To-Do List
 
 ## Tasks
+1. **rewrite the GenerateWorkoutPlan function**
+    - Objective: Use the JSON schema the way OpenAI recommends of doing
+
+
 
 1. **Create GenerateMealPlan Function**
     - Objective: Generate personalized meal plans based on user preferences, dietary restrictions, and fitness goals.
